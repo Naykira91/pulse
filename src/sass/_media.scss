@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media ( max-width: 991px ) {
+    .container {
+        width: 95%;
+    }
+    .promo  {
+    min-height: 600px;
+    &__header {
+        font-size: 39px;
+    }
+    &__subheader {
+        margin-top: 15px;
+        font-size: 23px;
+    }
+}
+}

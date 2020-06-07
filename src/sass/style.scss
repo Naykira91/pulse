@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
-@import 'block/promo.scss';
-@import 'block/header.scss';
+@import 'block/promo';
+@import 'block/header';
 @import 'block/buttons';
+@import 'block/advantages';
+@import 'block/titles';
+@import 'block/consultation';
+@import 'media';
