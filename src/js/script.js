@@ -8,9 +8,20 @@ $(document).ready(function(){
             {
                 breakpoint: 992,
                 settings: {
-                  dots: true,
-                  arrows: false
+                    arrows: true,
+                    infinite: true,
+
                 }
+            },
+            {  
+                breakpoint: 767,
+                settings: {
+                    arrows: false,
+                    dots: true,
+                    adaptiveHeight: true
+
+                }
+                
             }
         ]
     });
